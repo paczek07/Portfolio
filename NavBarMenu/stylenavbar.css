@@ -1,0 +1,100 @@
+.nav{
+    position: fixed;
+    top:0px;
+    left: 0px;
+    width: 100vw;
+    padding-left: 3%;
+    padding-right: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    min-height: 8vh;
+    background-color:rgb(0, 0, 0,0.2);   
+    z-index: 100;
+}
+.logo{
+    text-transform: uppercase;
+    letter-spacing: 0rem;
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.596);
+    z-index: 10;
+}
+.hampurila{
+    z-index: 10;
+}
+.hampurila div{ 
+    height: 2px;
+    width: 25px;
+    background-color: var(--letterMenu);
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+.navOptions{
+    position: fixed;
+    right: 0px;
+    top: 0vh;
+    width: 100vw;
+    height: 100vh;
+    transform: translateX(100%);
+    display: flex;
+    flex-direction: column;
+    background-color:var(--color3);
+    align-items: center;
+    justify-content: space-around;
+    transition: transform  0.4s ease-in ;
+    z-index: 5;
+    
+}
+.navOptions a{
+    color: var(--color2);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 3.3rem;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+/* This area controls de side menu */
+.nav-active{
+    transform: translateX(0%);
+}
+/* This area controls the hover animation on the menu */
+.navOptions a:hover{
+    color: white;
+}
+.navOptions a::after{
+    content: attr(data-after);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    color: var(--overlayColor);
+    z-index: 3;
+    transition: 0.5s ease;
+}
+.navOptions li:hover a::after {
+    transform: translate(-50%,-50%) scale(2);
+    letter-spacing: 0.5rem;
+}
+
+/* This area creates a close logo  */
+.closelogo .line1{
+    background-color: var(--color2);
+    transform: rotate(-45deg) translate(-5px,5px);
+}
+.closelogo .line2{
+    opacity: 0;
+}
+.closelogo .line3{
+    background-color: var(--color2);
+    transform: rotate(45deg) translate(-5px,-5px);
+}
+
+/* End of nav bar*/
+/* * */
+/* * */
+/* * */
+/* * */
+/* * */
