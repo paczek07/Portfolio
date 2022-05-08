@@ -1,39 +1,20 @@
-import React  from "react"
+import React from 'react'
 
 const Header = () => {
-  return (
-    <>
-      <header>
-        <div className='headerContainer flexSB'>
-          <div className='logo'>
-            <img src='./images/logo.png' alt='AMS' />
-          </div>
-          <nav>
-            <ul>
-              <li>
-                <a href='/'>Home</a>
-              </li>
-              <li>
-                <a href='/'>About</a>
-              </li>
-              <li>
-                <a href='/'>Portfolio</a>
-              </li>
-              <li>
-                <a href='/'>News</a>
-              </li>
-              <li>
-                <a href='/'>Contact</a>
-              </li>
-            </ul>
-          </nav>
-          <div >
-            <i className='fas fa-bars'></i>
-          </div>
-        </div>
-      </header>
-    </>
-  )
+    return (
+        <nav class="absolute z-10  w-full mx-auto px-7 ">
+            <div className="flex items-center justify-center md:justify-between p-3">
+                <div className="hidden pt-2 md:block">AMS</div>
+
+                <div className="space-x-11 flex">
+                    <a href="#" class="hover:text-blue-600">Home</a>
+                    <a href="#" class="hover:text-blue-600">About</a>
+                    <a href="#" class="hover:text-blue-600">Projects</a>
+                    <a href="#" class="hover:text-blue-600">Contact</a>
+                </div>
+            </div>
+        </nav>
+    )
 }
 
 export default Header

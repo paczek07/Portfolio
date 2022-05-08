@@ -1,8 +1,3 @@
-# PersonalWebsite
-This website is ment to be used for VAMK server developed for th resources and permissions that are available for a regular student.
-Will include a personal blog and future implementations for aditional features.
-
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
