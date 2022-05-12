@@ -12,7 +12,7 @@ const Home = () => {
                     </span>    
                 </h1>
                 <h1 className="mb-16 font-mono text-2xl text-gray-100 md:text-6xl">Software Developer</h1>
-                <button class="p-3 px-6 pt-2 w-40 text-white rounded-full border-2  bg-gradient hover:bg-gradient-to-br from-gray-300 to-transparent  bg-opacity-20 shadow-xl ">Download CV</button>
+                
             </div>
         </section>
     )
