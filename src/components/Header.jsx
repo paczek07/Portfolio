@@ -7,10 +7,10 @@ const Header = () => {
                 <div className="hidden pt-2 md:block">AMS</div>
 
                 <div className="space-x-11 flex">
-                    <a href="#" class="hover:text-blue-600">Home</a>
-                    <a href="#" class="hover:text-blue-600">About</a>
-                    <a href="#" class="hover:text-blue-600">Projects</a>
-                    <a href="#" class="hover:text-blue-600">Contact</a>
+                    <a href="#" class="text-white hover:text-blue-600">Home</a>
+                    <a href="#" class="text-white hover:text-blue-600">About</a>
+                    <a href="#" class="text-white hover:text-blue-600">Projects</a>
+                    <a href="#" class="text-white hover:text-blue-600">Contact</a>
                 </div>
             </div>
         </nav>

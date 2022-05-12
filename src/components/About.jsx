@@ -11,7 +11,7 @@ const About = () => {
                     </h2>
                     <div className="grid sp p-2">
                        
-                        <p class="max-w-sm text-left">
+                        <p class="max-w-sm text-left text-white">
                             I am a cheerful very active person, currently I'm getting my bachelors on information technology at Vaasa University of applied sciences.<br/>
                             Im very curious and dedicated person
                         </p>
