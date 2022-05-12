@@ -6,7 +6,7 @@ const About = () => {
             <div class="container flex flex-col px-4 mx-auto mt-5  space-y-12 md:space-y-0 md:flex-row" >
 
                 <div class="flex flex-col justify-center space-y-12 md:w-1/2 ">
-                    <h2 class="max-w-md text-5xl lg:text-8xl font-bold text-center md:text-left">
+                    <h2 class="max-w-md text-5xl lg:text-8xl font-bold text-center md:text-left text-white">
                         About me
                     </h2>
                     <div className="grid sp p-2">
