@@ -20,7 +20,7 @@ const About = () => {
                 </div>
 
 
-                <div class="flex flex-col justify-center space-y-8 md:w-1/2 bg-white mx-10 rounded-lg py-10 bg-opacity-60 backdrop-filter backdrop-blur-lg ">
+                <div class="flex flex-col justify-center space-y-8 md:w-1/2 bg-white mx-10 rounded-lg py-10 bg-opacity-50 backdrop-filter backdrop-blur-lg ">
 
                     <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row" >
 
